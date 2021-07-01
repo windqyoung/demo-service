@@ -1,0 +1,27 @@
+{
+	"name" : "windqyoung/demo-service",
+	"description" : "laravel demo service",
+	"keywords" : [
+		"demo"
+	],
+	"license" : "MIT",
+	"authors" : [
+	],
+	"autoload" : {
+		"psr-4" : {
+			"Windqyoung\\DemoService\\" : ""
+		}
+	},
+	"extra" : {
+		"laravel" : {
+			"providers" : [
+				"Windqyoung\\DemoService\\DemoServiceProvider"
+			]
+		}
+	},
+	"config" : {
+		"sort-packages" : true
+	},
+	"minimum-stability" : "dev",
+	"prefer-stable" : true
+}

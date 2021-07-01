@@ -1,0 +1,9 @@
+<?php
+
+
+use Illuminate\Support\Facades\Route;
+use Windqyoung\DemoService\App\DemoController;
+
+Route::any('/foo', [DemoController::class, 'foo'])->name('demo.foo');
+Route::any('/bar', [DemoController::class, 'bar'])->name('demo.bar');
+Route::any('/baz', [DemoController::class, 'baz'])->name('demo.baz');

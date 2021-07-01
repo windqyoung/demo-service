@@ -1,0 +1,27 @@
+<?php
+
+
+namespace Windqyoung\DemoService\App;
+
+use Illuminate\Http\Request;
+use Illuminate\Routing\Controller;
+
+class DemoController extends Controller
+{
+    public function __construct()
+    {
+    }
+    public function foo(Request $req)
+    {
+        return __METHOD__;
+    }
+    public function bar(Request $req)
+    {
+        return __METHOD__;
+    }
+    public function baz(Request $req)
+    {
+        return __METHOD__;
+    }
+}
+
